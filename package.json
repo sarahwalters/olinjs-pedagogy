@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "simple-blog": "^1.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0"
   }
 }
