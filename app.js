@@ -6,7 +6,7 @@ var simple = require('simple-blog');
 
 // ALL PARAMETERS ARE OPTIONAL
 simple.setup({
-  name: 'Olin.js', // Blog Title
+  name: 'Practical & pedagogical reflections on Olin.js', // Blog Title
 
   // How to generate slugs (defaults to "title")
   slugType: 'title', // options: "title" | "base36"
@@ -16,7 +16,7 @@ simple.setup({
 
   // Specify a URL that will dump all data
   //   Leave out or set to FALSE to disable
-  dumpPath: '/dump',
+  dumpPath: false,
 
   // Set amount of posts per page (defaults to 3)
   pageSize: 5,
